@@ -170,6 +170,7 @@ body{
 }
 
 .section_third{
+  position: relative;
   background: #f3f7fb;
   color:  #2b303b;
   padding-top: 68px;
@@ -201,6 +202,17 @@ body{
     }
 
   }
+.circle{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #f3f7fb;
+  border-radius: 50px;
+  left: 47%;
+  transform: translateX(47%);
+  bottom: -23px;
+}
+
 
 }
 
