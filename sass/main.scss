@@ -18,9 +18,9 @@
 button{
   background: #3dd2ae;
   border-radius: 28px;
-  border: none;
   padding: 13px 53px;
   outline: none;
+  border: none;
 }
 
 h2, h3, h4, h5, p{
@@ -80,7 +80,7 @@ body{
        }
      }
 
-     .bay{
+     .buy{
        border-radius: 25px;
        background: #835fa7;
        display: block;
@@ -574,7 +574,7 @@ body{
     }
     p{
       font-size: 12px;
-      width: 350px;
+      //max-width: 350px;
     }
 
   }
@@ -678,12 +678,17 @@ body{
 }
 
 @media (max-width: 992px) {
+  .section_fourth{
+    #carousel-example-generic{
+      display: none;
+    }
+  }
   .section_seventh{
     background: #835fa7;
     &__text{
       text-align: center;
       margin: 0 auto;
-      padding-bottom: 50px;
+      padding-bottom: 49px;
       max-width: 650px;
       p{
         text-align: center;
@@ -714,9 +719,43 @@ body{
       }
     }
   }
+  .section_ninth__text{
+    .text__img {
+
+      text-align: center;
+      max-width: 235px;
+      margin: 0 auto;
+    }
+  }
 }
 
 @media (max-width: 800px) {
+  .section_sixth{
+     .col-lg-6{
+       padding-right: 15px;
+     }
+   }
+  .section_seventh{
+      .col-lg-6{
+        padding-right: 15px;
+      }
+  }
+  .section_eighth{
+      &__text{
+        padding-right: 15px;
+        padding-left: 15px;
+      }
+    .content{
+      .row{
+        .col-lg-6{
+          padding-right: 15px;
+        }
+      }
+    }
+
+
+  }
+
   .section_ninth{
     background: #835fa7;
     &__text{
@@ -724,8 +763,57 @@ body{
       padding-bottom: 0;
       margin: 0 auto;
       text-align: center;
+      padding-left: 0;
     }
 
   }
 }
 
+@media (max-width: 750px) {
+  .section_first{
+
+    nav{
+
+      .buy{
+      display: none;
+    }
+      .input-group{
+        display: none;
+      }
+
+
+    }
+
+
+  }
+}
+
+@media (max-width: 400px) {
+  .section_first{
+    nav{
+      padding-left: 20px;
+    }
+    .header__text{
+      h3{
+        font-size: 50px;
+        line-height: 62px;
+      }
+
+    }
+
+
+  }
+  .section_second{
+    &__text{
+      h4{
+        line-height: 46px;
+        padding-bottom: 15px;
+
+        ;
+      }
+    }
+  }
+  .section_third{
+    padding-top: 20px;
+  }
+}
