@@ -1,0 +1,19 @@
+@mixin button{
+  background: #3dd2ae;
+  border-radius: 28px;
+  padding: 13px 53px;
+  outline: none;
+  border: none;
+  transition: .3s;
+}
+
+
+@mixin h4{
+  font-size: 40px;
+  font-weight: 300;
+}
+
+@mixin p{
+  font-size: 16px;
+  font-weight: 400;
+}
