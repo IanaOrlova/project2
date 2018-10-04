@@ -39,7 +39,7 @@ body{
      .logo{
 
        .logo_img{
-         fill: #835fa7
+         fill: $colorOne;
        }
 
      }
@@ -83,7 +83,7 @@ body{
 
      .buy{
        border-radius: 25px;
-       background: #835fa7;
+       background: $colorOne;
        display: block;
        padding: 12px 30px;
        max-height: 48px;
@@ -123,7 +123,7 @@ body{
              color: white;
 
              &:hover{
-               color: #835fa7;
+               color: $colorOne;
                background: #3a4d60;
              }
 
@@ -170,7 +170,7 @@ body{
 
 
 .section_second{
-  background: #835fa7;
+  background: $colorOne;
 
   &__text{
     padding-top: 79px;
@@ -192,7 +192,7 @@ body{
       @include button;
 
       &:hover{
-        background:  #3dd2ae;
+        background:  $colorSecond;
         box-shadow: 0 15px 20px rgba(46,229,158,.4);
         transform: translateY(-7px);
       }
@@ -251,7 +251,7 @@ body{
       @include button;
 
       &:hover {
-        background:  #3dd2ae;
+        background:  $colorSecond;
         box-shadow: 0 15px 20px rgba(46,229,158,.4);
         transform: translateY(-7px);
       }
@@ -347,8 +347,8 @@ body{
       }
 
       .active{
-        background: #835fa7;
-        border: #835fa7;
+        background: $colorOne;
+        border: $colorOne;
       }
 
     }
@@ -410,7 +410,7 @@ body{
       padding-bottom: 35px;
 
       span{
-        color: #835fa7;
+        color: $colorOne;
         margin-right: 10px;
       }
 
@@ -488,7 +488,7 @@ body{
 
   }
   &__img{
-    background: #835fa7;
+    background: $colorOne;
 
     img{
       width: 99.99%;
@@ -667,7 +667,7 @@ body{
       margin-bottom: 9px;
 
       button{
-        background: #835fa7;
+        background: $colorOne;
         border-radius: 2px;
         padding: 10px 21px;
 
@@ -797,7 +797,7 @@ body{
     }
   }
   .section_seventh{
-    background: #835fa7;
+    background: $colorOne;
     &__text{
       text-align: center;
       margin: 0 auto;
@@ -870,7 +870,7 @@ body{
   }
 
   .section_ninth{
-    background: #835fa7;
+    background: $colorOne;
     &__text{
       max-width: 650px;
       padding-bottom: 0;
